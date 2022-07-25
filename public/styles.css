@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu&display=swap');
+
+:root {
+  --primary: #d81e5b;
+  --secondary: #8c3aff;
+  --dark: #131a26;
+  --light: #eee;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  padding: 1.5rem 2rem;
+  font-size: 2rem;
+  color: white;
+  background-color: var(--secondary);
+  font-family: "Montserrat", sans-serif;
+}
+
+.inputForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+}
+
+.inputForm > form > input{
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+#priority{
+    min-width: 8rem;
+}
+
+.inputForm > form > button{
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    margin: 0 0.5rem;
+    background-color: var(--dark);
+    color: var(--light);
+    font-family: "Montserrat", sans-serif;
+}
+
+button:hover{
+    background-color: var(--light) ;
+    color: var(--dark);
+    cursor: pointer;
+    border-color: white;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 750px;
+}
+
+.displyTodo{
+    display: flex;
+    margin: 0 6rem;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.displyTodo > ul{
+    list-style-type: none;
+
+}
+
+.displyTodo > ul > li{
+    padding: 0.5rem 0;
+    font-size: 2rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.check-icon{
+    border: none;
+    font-size: 2rem;
+    background: none;
+    color: #21BF73;
+}
+
+.check-icon:hover{
+    color: green;
+    background: none;
+}

@@ -1,0 +1,18 @@
+<div class="displyTodo">
+    <ul>
+
+        <% for(var i=0;i<newListItem.length;i++){ %>
+
+            <li>
+                <form action="/delete" method="post">
+                    <p>
+                        <button class="check-icon"  onclick="this.form.submit()" name="delete" value="<%= newListItem[i]._id %>">
+                            <i class="fa-solid fa-square-check"></i>
+                        </button>
+                        <%= newListItem[i].name %>(Priority : <%= newListItem[i].priority %>)
+                    </p>
+                </form>
+            </li>
+            <% } %>
+    </ul>
+</div>

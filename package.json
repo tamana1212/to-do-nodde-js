@@ -1,0 +1,19 @@
+{
+  "name": "mytodo",
+  "version": "1.0.0",
+  "description": "A simple ToDo app using Express.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Kshitij Sharma",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.6",
+    "nodemon": "^2.0.19"
+  }
+}
