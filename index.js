@@ -22,7 +22,7 @@ const item1 = new Item({
     priority : 10
 })
 const item2 = new Item({
-    name: "By Kshitij Sharma",
+    name: "By Tamana Sharma",
     priority : 10
 })
 
